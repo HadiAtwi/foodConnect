@@ -1,0 +1,14 @@
+.ngo-portal {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    min-height: 100vh;
+}
+
+.ngo-body {
+    display: flex;
+}
+
+.ngo-main {
+    flex: 1;
+    padding: 2rem;
+}

@@ -1,0 +1,38 @@
+.faq-container {
+    max-width: 800px;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+.faq-card {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 1rem;
+}
+
+.faq-question {
+    font-weight: 600;
+    color: #007bff;
+    margin-bottom: 0.5rem;
+}
+
+.faq-answer {
+    color: #333;
+    line-height: 1.5;
+}
+
+.faq-more {
+    margin-top: 2rem;
+    font-weight: 500;
+}
+
+.faq-more a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.faq-more a:hover {
+    text-decoration: underline;
+}

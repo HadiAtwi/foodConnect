@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #ffffff;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+.logo {
+    font-family: 'Outfit', sans-serif;   /* modern clean font */
+    font-weight: 700;                    /* bold */
+    font-size: 1.8rem;                   /* larger than nav links */
+    color: #4a4f6b;                     /* soft NGO green */
+    letter-spacing: 1px;                 /* subtle spacing */
+    text-transform: uppercase;           /* optional for style */
+    text-decoration: none;               /* remove underline */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: #f0f8f5;
+    padding: 6px 12px;
+    border-radius: 8px;
+}
+.logo:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+}
+
+
+
+
+.navbar-user {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.avatar {
+    width: 120px;        /* Adjust width as needed */
+    height: auto;        /* Keep aspect ratio */
+    border-radius: 0;    /* Remove roundness */
+    object-fit: contain;
+}
