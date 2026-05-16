@@ -45,7 +45,7 @@ function Login() {
     //  }
     return (
       <div className="login-container">
-        <h1>Food Connect</h1>
+        <h1>NGO Connect </h1>
         <form onSubmit={handleLogin}>
           <div className="form-group">
             <label htmlFor="username">Username</label>

@@ -7,6 +7,13 @@ import HomePage from './components/HomePage';
 import Login from './components/LoginForm';
 import NGOPortal from './components/NGOPortal';
 import DonorPortal from './components/DonorPortal';
+import ProfilePage from './components/ProfilePage';
+import Webinars from './components/Webinars';
+import FAQ from './components/FAQ';
+import Matching from './components/Matching';
+import ProposalRequests from './components/ProposalRequests'; 
+import PortalLayout from './layout/PortalLayout';
+import LandingPage from './pages/LandingPage';
 import './App.css';
 /*
 //function App() {
@@ -64,16 +71,31 @@ import './App.css';
 function App() {
   return (
       <Router>
+        
           <Routes>
-              {/* Login Route */}
-              <Route path="/" element={<Login />} />
+                {/* Login Route */}
+                <Route path="/login" element={<Login />} />
+                {/* Donor Portal Route */}
+                <Route path="/donor" element={<DonorPortal />} />
 
-              {/* NGO Portal Route */}
-              <Route path="/ngo" element={<NGOPortal />} />
+                <Route path="/landing" element={<LandingPage />} />
+                
+                {/* NGO Portal Route */}
+                <Route path="/ngo" element={<NGOPortal />} />
 
-              {/* Donor Portal Route */}
-              <Route path="/donor" element={<DonorPortal />} />
+                {/*Profile page Route */}
+                <Route path="/profile" element={<ProfilePage />} />
+
+                <Route path="/proposals" element={<ProposalRequests />} />
+
+                <Route path="/webinars" element={<Webinars />} />
+
+                <Route path="/matching" element={<Matching />} />
+
+                <Route path="/faq" element={<FAQ />} />
+                
           </Routes>
+        
       </Router>
   );
 }

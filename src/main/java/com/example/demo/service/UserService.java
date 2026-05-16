@@ -33,6 +33,14 @@ public class UserService {
         existingUser.setName(updatedUser.getName());
         existingUser.setEmail(updatedUser.getEmail());
         existingUser.setDescription(updatedUser.getDescription());
+        existingUser.setMission(updatedUser.getMission());
+        existingUser.setVision(updatedUser.getVision());
+        existingUser.setFocusAreas(updatedUser.getFocusAreas());
+        existingUser.setLocation(updatedUser.getLocation());
+        existingUser.setWebsite(updatedUser.getWebsite());
+        existingUser.setFoundingYear(updatedUser.getFoundingYear());
+        existingUser.setRegistrationNumber(updatedUser.getRegistrationNumber());
+        existingUser.setSocialLinks(updatedUser.getSocialLinks());
 
         return userRepository.save(existingUser);
     }
